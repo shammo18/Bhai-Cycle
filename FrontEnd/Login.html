@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="with=device-width,intial-scale=1.0">
+  <title>Bhai-Cycle</title>
+  <style>
+    h1 {
+      margin: 0;
+      padding: 0 0 20px;
+      text-align: center;
+      font-size: 22px;
+    }
+
+    .loginbox {
+      width: 320px;
+      height: 420px;
+      background: #000;
+      color: #fff;
+      top: 55%;
+      left: 50%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      box-sizing: border-box;
+      padding: 70px 30px;
+
+    }
+
+    .loginbox p {
+      margin: 0;
+      padding: 0;
+      font-weight: bold;
+
+    }
+
+    .loginbox input {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .loginbox input[type="text"],
+    input[type="password"] {
+      border: none;
+      border-bottom: 1px solid #fff;
+      background: transparent;
+      outline: none;
+      color: #fff;
+      height: 40px;
+
+    }
+
+    .loginbox input[type="submit"] {
+      border: none;
+      outline: none;
+      height: 40px;
+      background: green;
+      color: #fff;
+      font-size: 18px;
+      border-radius: 20px;
+
+    }
+
+    .loginbox input[type="submit"]:hover {
+
+      cursor: pointer;
+      background: #ffc107;
+      color: #000;
+
+    }
+
+
+
+    #icon {
+      display: none;
+      position: absolute;
+      top: 70%;
+      left: 10%;
+      margin-bottom: 10px;
+      transform: translate(-50%, -50%);
+    }
+
+    #name {
+      color: #a5cb55;
+      font-family: Griffy, script;
+      font-size: 50px;
+
+    }
+
+    .content {
+      padding: 0;
+      color: #4CAF50;
+      background: #fff;
+      border-left: 4px solid rgb(165, 207, 66);
+      border-right: 4px solid rgb(165, 207, 66);
+      margin-left: 15%;
+      margin-top: 100px;
+      width: 70%;
+      position: relative;
+
+    }
+
+
+    .hr {
+      margin-left: 15%;
+      width: 70%;
+      color: #ddd;
+    }
+
+    .sticky {
+      top: 0;
+      background: #a5cb55;
+      width: 100%;
+    }
+
+    .sticky+.content {
+      padding-top: 60px;
+    }
+
+
+    @media screen and (max-width: 760px) {
+      .header {
+        background-color: #f1f1f1;
+        width: 100%;
+        position: fixed;
+        height: 60px;
+        padding: 10px;
+        text-align: center;
+      }
+
+
+      .content {
+        margin-left: 0%;
+        width: 100%;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      #name {
+        font-size: 40px;
+      }
+
+      #headimg img {
+        height: 150px;
+      }
+    }
+
+    @media screen and (max-width: 450px) {
+      #name {
+        font-size: 30px;
+      }
+
+      #headimg img {
+        height: 90px;
+      }
+
+
+    }
+  </style>
+</head>
+
+
+<body>
+
+
+  <div class="loginbox">
+    <img class="avatar">
+    <h1>Login Here</h1>
+    <form>
+      <p>Username</p>
+      <input type="text" name="" placeholder="Enter Username">
+      <p>Password</p>
+      <input type="password" name="" placeholder="Enter Password">
+      <input type="submit" name="" value="Login">
+
+    </form>
+  </div>
+
+
+</body>
+
+</html>

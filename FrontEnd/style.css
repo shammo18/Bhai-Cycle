@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobstar:200i,400&display=swap');
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--color-white);
+  margin: 0;
+}
+
+.main {
+  position: fixed;
+  overflow: scroll;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: var(--color-darkblue);
+  background-image: linear-gradient(115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)),
+    url(backgroundImg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+nav {
+
+  display: flex;
+  padding: 0% 1%;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+nav img {
+  width: 100px;
+  height: auto;
+  border-radius: 35%;
+  margin-left: 30px;
+  padding-top: 30px;
+  margin-top: auto;
+
+
+}
+
+.nav-links {
+  flex: 1;
+  text-align: right;
+  margin-top: -3%;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 4px 8px;
+  position: relative;
+
+}
+
+
+
+#logo-heading {
+  display: inline-block;
+  color: rgb(18, 72, 3);
+  font-size: 55px;
+  font-family: 'Lobstar', sans-serif;
+  font-weight: bold;
+  margin-top: -10px;
+  background: -webkit-linear-gradient(rgb(78, 219, 13), rgb(255, 255, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: cover;
+
+}
+
+.nav-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-links ul li a:hover {
+  color: rgba(1, 1, 10, 0.8);
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex-basis: 50%;
+}
+
+.card {
+  width: 300px;
+  height: 260px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 10px 25px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-color: rgb(0, 0, 0);
+}
+
+
+.card h3 {
+  font-size: 20px;
+  font-weight: 900;
+  display: inline-block;
+  padding-top: 33%;
+  padding-left: 10%;
+  color: rgb(255, 255, 255);
+}
+
+.card h3:hover {
+  color: rgb(78, 219, 13)
+}
+
+.footer {
+  display: inline-block;
+  width: 100%;
+  height: 33px;
+  box-sizing: border-box;
+  margin-bottom: 0%;
+  box-shadow: #fff;
+  background-color: black;
+}
+
+.col p {
+  display: inline-block;
+  font-family: 'Gills-sans';
+  font-size: 23px;
+  color: rgb(255, 255, 255);
+  margin: 0;
+}
+
+
+.foot {
+  display: fixed;
+  width: 100%;
+  height: 100px;
+  box-sizing: border-box;
+  margin-top: 20%;
+  margin-bottom: 0%;
+  box-shadow: #fff;
+  background-color: black;
+}
+
+.foot p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: center;
+  color: #eee;
+}
