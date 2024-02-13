@@ -2,6 +2,8 @@
 
 This project is a comprehensive solution aimed at facilitating cycle sharing among university students. Leveraging Java Spring Boot, Maven, ReactJS, and MySQL, this application offers a seamless experience for users to borrow and return cycles conveniently within their university campus. I have done this project under a Academic Course on 3-2 semester.
 
+![Homepage](https://github.com/shammo18/Bhai-Cycle/blob/main/bhaicyle-1.jpg)
+
 ## Features
 
 - **Real-time Update**: Stay updated with the availability of cycles in real-time, ensuring efficient usage of resources.
